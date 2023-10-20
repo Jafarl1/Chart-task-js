@@ -1,0 +1,27 @@
+.fileLoader {
+  width: 280px;
+  padding: 10px;
+  position: relative;
+  outline: none;
+
+  &::before {
+    width: 121px;
+    height: 38px;
+    content: "Load Excel File";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: rgb(222, 222, 222);
+    border: 2px solid darkgreen;
+    color: darkgreen;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+#file-upload-button {
+  background-color: red !important;
+}

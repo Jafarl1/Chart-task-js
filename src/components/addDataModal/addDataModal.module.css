@@ -1,0 +1,80 @@
+:root {
+  --modal-gray: rgb(31, 37, 37);
+}
+.addDataModal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(128, 128, 128, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .modalWindow {
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px 0px #00000099;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .closeModal {
+      width: 100%;
+      height: 20px;
+      display: flex;
+      justify-content: flex-end;
+      font-size: 1.4rem;
+
+      > i {
+        color: var(--modal-gray);
+        cursor: pointer;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+
+    .modalBody {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .inputs {
+        display: flex;
+        flex-direction: column;
+
+        > label {
+          margin-top: 40px;
+        }
+        > input,
+        > select {
+          height: 40px;
+          outline: none;
+          padding: 5px 10px;
+          border: 1px solid var(--modal-gray);
+          border-radius: 4px;
+          font-size: 1rem;
+          margin-top: 15px;
+        }
+      }
+
+      .btnGroup {
+        display: flex;
+        justify-content: end;
+        gap: 20px;
+        padding: 10px;
+      }
+    }
+  }
+}
+
+.hidden {
+  display: none;
+}

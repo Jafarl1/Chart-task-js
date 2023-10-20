@@ -1,0 +1,14 @@
+.addDataBtn {
+  width: 124px;
+  height: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: rgb(222, 222, 222);
+  border: 2px solid darkblue;
+  color: darkblue;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}

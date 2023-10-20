@@ -1,0 +1,8 @@
+#table {
+  max-width: 1000px;
+  margin-left: 20px;
+  width: max-content;
+}
+.hidden {
+  display: none;
+}
