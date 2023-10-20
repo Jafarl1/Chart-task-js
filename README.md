@@ -31,6 +31,3 @@ Libraries used in project:
 ---
 
 Also you can follow the link:
-
-
-
