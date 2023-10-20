@@ -32,5 +32,5 @@ Libraries used in project:
 
 Also you can follow the link:
 
-https://chart-task-jafarl1.vercel.app
+
 
